@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import {imageUrl} from '../../constance/constance'
+import {imageUrl} from '../../constants/constants'
 import {originals} from '../../url'
 import axios from '../../axios'
 import './Banner.css'
