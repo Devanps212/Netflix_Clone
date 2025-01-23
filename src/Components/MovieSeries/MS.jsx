@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import Youtube from 'react-youtube'
 import axios from '../../axios'
-import {imageUrl, API_KEY} from ''
+import {imageUrl, API_KEY} from '../../constants/constants' 
 import './MS.css'
 
 function Movies(props)
